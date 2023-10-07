@@ -18,7 +18,7 @@ async function fetchData(query) {
             <p>Release Year: ${data.Search[idx].Year}</p>
             <p>Type: ${data.Search[idx].Type}</p>
         </div>`;
-        container.style.opacity = 1;
+        // container.style.opacity = 1;
         document.querySelector('.box-main').append(container);
     }
     catch (error) {
