@@ -3,11 +3,15 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
 :root {
-  --black: rgb(26, 26, 26); /*#000000;*/
+  --black: rgb(26, 26, 26);
+  /*#000000;*/
   --yellow: #ffc60b;
-  --babyBlack: rgb(18, 18, 18); /*#383838;*/
+  --babyBlack: rgb(18, 18, 18);
+  /*#383838;*/
 }
+
 .wrapper {
   width: 100vw;
   height: 100vh;
@@ -15,8 +19,9 @@
   display: flex;
   flex-direction: column;
 }
+
 .wrapup {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   /* padding-top: 25px;
   padding-bottom: 25px; */
   width: 100vw;
@@ -24,8 +29,9 @@
   display: flex;
   justify-content: center;
 }
+
 .box-nav {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   display: flex;
   width: 85%;
   padding: 15px;
@@ -33,14 +39,17 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
 .search {
   display: flex;
 }
+
 .logo img {
   margin-top: -45px;
   margin-bottom: -45px;
   height: 125px;
 }
+
 .button img {
   height: 15px;
   color: #ffc60b;
@@ -48,47 +57,71 @@
   border: none;
   text-decoration: none;
 }
+
 .search-input {
   padding: 5px;
   padding-right: 100px;
   border-radius: 5px;
 }
+
 .search-icon {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .search-icon i {
   /* height: 50px; */
   font-weight: 700;
   padding-left: 7px;
   padding-right: 7px;
-  border: 3px solid var(--yellow);
+  /* border: 3px solid var(--yellow); */
   border-radius: 5px;
   padding-top: 7px;
   /* height: 100px; */
   padding-bottom: 7px;
 }
+
 .wrapdown {
-  border: 1px solid var(--yellow);
+  /* border: 1px solid var(--yellow); */
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .box-main {
   width: 85%;
   height: 100vh;
   display: flex;
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
 }
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  opacity: 0;
+}
+
 .left {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.left img {
+  height: 400px;
+}
+
 .right {
-  border: 1px solid burlywood;
+  /* border: 1px solid burlywood; */
   width: 60%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
