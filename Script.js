@@ -7,4 +7,4 @@ async function fetchData(query){
     console.log(data);
 }
 
-fetchData('Stranger Things');
+fetchData('Top Gun: Maverick');
