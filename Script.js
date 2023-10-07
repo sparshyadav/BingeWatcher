@@ -5,18 +5,26 @@ async function fetchData(query) {
         let res = await fetch(`${API_URL}s=${query}`);
         let data = await res.json();
         console.log(data);
+        let imdbID=data.Search[0].imdbID;
+        data=await fetch(`${API_URL}i=${imdbID}`);
+        data=await data.json();
+        console.log(data);
 
         let div = document.createElement("div");
         div.classList.add('container');
         const container = document.querySelector('.container');
         container.innerHTML = `
         <div class="left">
-            <img src="${data.Search[idx].Poster}" alt="">
+            <img src="${data.Poster}" alt="">
         </div>
         <div class="right">
-            <h1 class="title">${data.Search[idx].Title}</h1>
-            <p>Release Year: ${data.Search[idx].Year}</p>
-            <p>Type: ${data.Search[idx].Type}</p>
+            <h1 class="title">${data.Title}</h1>
+            <h2 class="actors"><span>Actors: </span>${data.Actors}</h2>
+            <p class="plot"><span>Plot: </span>${data.Plot}</p>
+            <p><span>Release: </span>${data.Released}</p>
+            <p><span>Language: </span>${data.Language}</p>
+            <p><span>Country: </span>${data.Country}</p>
+            <p><span>IMDB Rating: </span>${data.imdbRating}</p>
         </div>`;
         // container.style.opacity = 1;
         document.querySelector('.box-main').append(container);

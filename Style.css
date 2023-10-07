@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 :root {
@@ -122,4 +125,13 @@
   justify-content: center;
   align-items: center;
   color: white;
+  text-align: left;
+  gap: 10px;
+}
+.title{
+  font-family: 'Fira Sans', sans-serif;
+  color: #ffc60b;
+}
+span{
+  color: #ffc60b;
 }
