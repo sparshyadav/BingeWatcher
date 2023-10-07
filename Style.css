@@ -6,10 +6,8 @@
 
 :root {
   --black: rgb(26, 26, 26);
-  /*#000000;*/
   --yellow: #ffc60b;
   --babyBlack: rgb(18, 18, 18);
-  /*#383838;*/
 }
 
 .wrapper {
