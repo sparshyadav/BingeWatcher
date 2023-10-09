@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -24,9 +24,6 @@
 }
 
 .wrapup {
-  /* border: 1px solid white; */
-  /* padding-top: 25px;
-  padding-bottom: 25px; */
   width: 100vw;
   background-color: var(--babyBlack);
   display: flex;
@@ -34,7 +31,6 @@
 }
 
 .box-nav {
-  /* border: 1px solid yellow; */
   display: flex;
   width: 85%;
   padding: 15px;
@@ -74,19 +70,15 @@
 }
 
 .search-icon i {
-  /* height: 50px; */
   font-weight: 700;
   padding-left: 7px;
   padding-right: 7px;
-  /* border: 3px solid var(--yellow); */
   border-radius: 5px;
   padding-top: 7px;
-  /* height: 100px; */
   padding-bottom: 7px;
 }
 
 .wrapdown {
-  /* border: 1px solid var(--yellow); */
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -97,18 +89,15 @@
   width: 85%;
   height: 100vh;
   display: flex;
-  /* border: 1px solid greenyellow; */
 }
 
 .container {
   height: 100%;
   width: 100%;
   display: flex;
-  /* opacity: 0; */
 }
 
 .left {
-  /* border: 1px solid white; */
   width: 40%;
   display: flex;
   justify-content: center;
@@ -120,7 +109,6 @@
 }
 
 .right {
-  /* border: 1px solid burlywood; */
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -130,10 +118,10 @@
   text-align: left;
   gap: 10px;
 }
-.title{
-  font-family: 'Fira Sans', sans-serif;
+.title {
+  font-family: "Fira Sans", sans-serif;
   color: #ffc60b;
 }
-span{
+span {
   color: #ffc60b;
 }
