@@ -3,10 +3,12 @@ const API_URL = `http://www.omdbapi.com/?apikey=23e5f07d&`;
 async function fetchData(query) {
     try {
         let res = await fetch(`${API_URL}s=${query}`);
+        // console.log(res);
         let data = await res.json();
         console.log(data);
         let imdbID=data.Search[0].imdbID;
         data=await fetch(`${API_URL}i=${imdbID}`);
+        // data=await fetch(`${API_URL}s=popular`);
         data=await data.json();
         console.log(data);
 

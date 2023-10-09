@@ -5,6 +5,8 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Titillium Web', sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 :root {
